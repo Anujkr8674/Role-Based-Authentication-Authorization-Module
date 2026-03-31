@@ -379,9 +379,11 @@
             border-radius: 32px;
         }
 
-        .role @media (max-width: 980px) {
+        @media (max-width: 980px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
 
-            .cards,
             .notes-grid {
                 grid-template-columns: 1fr;
             }
@@ -392,11 +394,26 @@
                 padding: 20px 14px 36px;
             }
 
+            .role {
+                padding: 0 14px 24px;
+                border-radius: 24px;
+            }
+
+            .section-title {
+                font-size: 1.35rem;
+                margin: 24px 0 14px;
+            }
+
             .hero,
             .notes,
             .card {
                 padding: 22px 18px;
                 border-radius: 24px;
+            }
+
+            .cards,
+            .notes-grid {
+                gap: 14px;
             }
 
             .shortcut {
