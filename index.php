@@ -257,7 +257,8 @@
             gap: 12px;
             text-decoration: none;
             color: var(--ink);
-            background: var(--paper-strong);
+            /* background: var(--paper-strong); */
+            background: rgb(232 230 255 / 96%);
             border: 1px solid rgba(58, 78, 71, 0.08);
             border-radius: 20px;
             padding: 15px 16px;
@@ -277,7 +278,8 @@
         }
 
         .shortcut span {
-            color: var(--muted);
+            /* color: var(--muted); */
+            color: #4b65ef;
             font-size: 0.9rem;
             word-break: break-all;
         }
@@ -457,16 +459,16 @@
                         <a class="shortcut" href="admin/admin-signin.php">
                             <div>
                                 <strong>Admin Login</strong>
-                                <span>/admin/admin-signin.php</span>
+                                <!-- <span>/admin/admin-signin.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                         <a class="shortcut" href="admin/admin-dashboard.php">
                             <div>
                                 <strong>Admin Dashboard</strong>
-                                <span>/admin/admin-dashboard.php</span>
+                                <!-- <span>/admin/admin-dashboard.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                     </div>
 
@@ -483,23 +485,23 @@
                         <a class="shortcut" href="Manager/manager-signin.php">
                             <div>
                                 <strong>Manager Login</strong>
-                                <span>/Manager/manager-signin.php</span>
+                                <!-- <span>/Manager/manager-signin.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                         <a class="shortcut" href="Manager/manager-register.php">
                             <div>
                                 <strong>Manager Register</strong>
-                                <span>/Manager/manager-register.php</span>
+                                <!-- <span>/Manager/manager-register.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                         <a class="shortcut" href="Manager/manager-forgot-password.php">
                             <div>
                                 <strong>Manager Forgot Password</strong>
-                                <span>/Manager/manager-forgot-password.php</span>
+                                <!-- <span>/Manager/manager-forgot-password.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                     </div>
 
@@ -516,23 +518,23 @@
                         <a class="shortcut" href="employee-signin.php">
                             <div>
                                 <strong>Employee Login</strong>
-                                <span>/employee-signin.php</span>
+                                <!-- <span>/employee-signin.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                         <a class="shortcut" href="employee-register.php">
                             <div>
                                 <strong>Employee Register</strong>
-                                <span>/employee-register.php</span>
+                                <!-- <span>/employee-register.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                         <a class="shortcut" href="employee-forgot-password.php">
                             <div>
                                 <strong>Employee Forgot Password</strong>
-                                <span>/employee-forgot-password.php</span>
+                                <!-- <span>/employee-forgot-password.php</span> -->
                             </div>
-                            <span class="arrow">&rarr;</span>
+                            <span class="arrow">Click Here &rarr;</span>
                         </a>
                     </div>
 
